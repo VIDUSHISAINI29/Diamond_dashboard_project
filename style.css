@@ -17,7 +17,7 @@ body{
     width: 25%;
 }
 .less_quarter_width{
-    width: 23.5%;
+   width: 400px;
 }
 .bgColor{
     background-color: #343a40;
@@ -356,6 +356,9 @@ td, .td{
 
 @media only screen and (max-width: 1400px){
     .color_boxes_row{
+        flex-wrap: wrap;
+    }
+    .hero_section{
         flex-wrap: wrap;
     }
     .Orders_recent_container{

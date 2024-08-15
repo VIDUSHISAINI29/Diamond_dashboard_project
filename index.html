@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
 
 
@@ -64,7 +64,7 @@
                 </div>
             </div>
             <div class="hero_section full_width">
-                <div class="color_boxes_row justify-between items-center flex p-8">
+                <div class="color_boxes_row  flex w-full justify-between items-center p-8">
                     <div class="bluebox flex-col less_quarter_width border_radius px-8 py-3 shadow-md bgColorWhite">
                         <div class="box_head flex items-center">
                             <span class="p-1 cart2 border_radius mr-2"><img src="Diamond_assets/cart.svg" alt=""></span>
@@ -76,7 +76,7 @@
                                 <span class="text-2xl text-center">640</span>
                                 <span class="text-base text-center">Pending</span>
                             </div>
-                            <div class="boxdata_right flex flex-col half_width ">
+                            <div class="boxdata_right  flex flex-col half_width ">
                                 <span class="text-2xl text-center">1420</span>
                                 <span class="text-base text-center">Completed</span>
                             </div>
@@ -86,7 +86,7 @@
 
                     </div>
 
-                    <div class="purplebox flex-col less_quarter_width border_radius px-8 py-3 shadow-md bgColorWhite">
+                    <div class="purplebox flex-col  less_quarter_width border_radius px-8 py-3 shadow-md bgColorWhite">
                         <div class="box_head flex items-center">
                             <span class="p-1 dollar border_radius mr-2"><img src="Diamond_assets/dollar.svg"
                                     alt=""></span>
@@ -633,14 +633,14 @@
 
 
 
-    <div class="home_dropdown bgColor border_radius  p-2 home_down_position">
+    <div class="home_dropdown bgColor fixed border_radius  p-2 home_down_position">
         <span class="home_down_items border_radius flex items-center m-1 p-1 fontSize"><img
                 src="Diamond_assets/home2.svg" alt="">E-Commerce</span>
         <span class="home_down_items border_radius flex items-center p-1 fontSize"><img src="Diamond_assets/banking.svg"
                 alt="">Banking</span>
     </div>
 
-    <div class="home_dropdown gallery_dropdown galley bgColor border_radius  p-2 gallery_down_position">
+    <div class="home_dropdown gallery_dropdown fixed galley bgColor border_radius  p-2 gallery_down_position">
         <span class="home_down_items border_radius flex items-center m-1 p-1 fontSize"><img
                 src="Diamond_assets/home2.svg" alt="">Blogs</span>
         <span class="home_down_items border_radius flex items-center p-1 fontSize">
@@ -657,7 +657,7 @@
     </div>
 
 
-    <div class="home_dropdown star_dropdown galley bgColor border_radius  p-2 star_down_position">
+    <div class="home_dropdown star_dropdown fixed galley bgColor border_radius  p-2 star_down_position">
         <span class="home_down_items border_radius flex items-center m-1 p-1 fontSize"><img
                 src="Diamond_assets/home2.svg" alt="">Form Layout</span>
         <span class="home_down_items border_radius flex items-center m-1 p-1 fontSize"><img
@@ -694,7 +694,7 @@
     </div>
 
 
-    <div class="home_dropdown mask_dropdown bgColor border_radius  p-2 mask_down_position">
+    <div class="home_dropdown fixed  mask_dropdown bgColor border_radius  p-2 mask_down_position">
         <span class="home_down_items border_radius flex items-center m-1 p-1 fontSize"><img
                 src="Diamond_assets/home2.svg" alt="">Free Blocks</span>
         <span class="home_down_items border_radius flex items-center p-1 fontSize"><img src="Diamond_assets/home2.svg"
@@ -702,7 +702,7 @@
     </div>
 
 
-    <div class="home_dropdown compass_dropdown bgColor border_radius  p-2 compass_down_position">
+    <div class="home_dropdown fixed compass_dropdown bgColor border_radius  p-2 compass_down_position">
         <span class="home_down_items border_radius flex items-center m-1 p-1 fontSize"><img
                 src="Diamond_assets/home2.svg" alt="">PrimeIcons</span>
         <span class="home_down_items border_radius flex items-center p-1 fontSize"><img src="Diamond_assets/home2.svg"
@@ -713,7 +713,7 @@
                 alt="">Figma</span>
     </div>
 
-    <div class="home_dropdown toolbox_dropdown galley bgColor border_radius  p-2 toolbox_down_position">
+    <div class="home_dropdown fixed toolbox_dropdown galley bgColor border_radius  p-2 toolbox_down_position">
         <span class="home_down_items border_radius flex items-center m-1 p-1 fontSize"><img
                 src="Diamond_assets/home2.svg" alt="">Landing</span>
         <span class="home_down_items border_radius flex items-center m-1 p-1 fontSize"><img
@@ -740,7 +740,7 @@
 
     </div>
 
-    <div class="home_dropdown wallet_dropdown galley bgColor border_radius  p-2 wallet_down_position">
+    <div class="home_dropdown fixed wallet_dropdown galley bgColor border_radius  p-2 wallet_down_position">
         <span class="home_down_items border_radius flex items-center m-1 p-1 fontSize"><img
                 src="Diamond_assets/home2.svg" alt="">Product Overview</span>
         <span class="home_down_items border_radius flex items-center m-1 p-1 fontSize"><img
@@ -760,19 +760,19 @@
 
     </div>
 
-    <div class="home_dropdown bgColor profile_dropdown border_radius  p-2 profile_down_position">
+    <div class="home_dropdown fixed bgColor profile_dropdown border_radius  p-2 profile_down_position">
         <span class="home_down_items border_radius flex items-center m-1 p-1 fontSize"><img
                 src="Diamond_assets/home2.svg" alt="">List </span>
         <span class="home_down_items border_radius flex items-center p-1 fontSize"><img src="Diamond_assets/banking.svg"
                 alt="">Create</span>
     </div>
-    <div class="home_dropdown bgColor menu_dropdown border_radius  p-2 menu_down_position">
+    <div class="home_dropdown fixed bgColor menu_dropdown border_radius  p-2 menu_down_position">
         <span class="home_down_items border_radius flex items-center m-1 p-1 fontSize"><img
                 src="Diamond_assets/home2.svg" alt="">Submenu 1</span>
         <span class="home_down_items border_radius flex items-center p-1 fontSize"><img src="Diamond_assets/banking.svg"
                 alt="">Submenu 2</span>
     </div>
-    <div class="home_dropdown bgColor download_dropdown border_radius  p-2 download_down_position">
+    <div class="home_dropdown fixed bgColor download_dropdown border_radius  p-2 download_down_position">
         <span class="home_down_items border_radius flex items-center m-1 p-1 fontSize"><img
                 src="Diamond_assets/home2.svg" alt="">Buy Now</span>
         <span class="home_down_items border_radius flex items-center p-1 fontSize"><img src="Diamond_assets/banking.svg"
